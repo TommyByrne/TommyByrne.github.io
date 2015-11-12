@@ -1,0 +1,55 @@
+.content-block
+  background-size: cover
+  padding: 100px 0
+  position: relative
+  
+  &.quote
+    padding: 50px 0
+    background: $secondary-color
+    text-align: center
+    color: #fff
+  &.foot
+    padding: 50px 0
+    background: $primary-color
+  &.blog-preview
+    margin-top: 50px
+
+
+  h1
+    margin-left: auto
+    margin-right: auto
+    max-width: 1000px
+  p
+    font-size: 20px
+    font-weight: 300
+    margin-left: auto
+    margin-right: auto
+    max-width: 1000px
+
+  @include respond-to(mobile)
+    display: block
+    padding: 65px 20px 50px
+
+.intro
+  background-image: image-url('tommy-bench.jpg')
+  background-size: cover
+  background-position: 50% 25%
+
+  @include respond-to(mobile)
+    margin-top: 10px
+    padding: 100px 20px 70px
+    
+    .headline
+      margin-top: 0px
+      padding-bottom: 50px
+
+.content
+  margin: 0 auto
+  max-width: $max-content-width
+
+  @include respond-to(mobile)
+    padding-left: 20px
+    padding-right: 20px
+
+.navigation + .content
+  margin-top: 180px

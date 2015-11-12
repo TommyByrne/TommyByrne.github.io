@@ -1,0 +1,13 @@
+= wrap_layout :layout do
+  article.content.blog-article
+    header
+      h1 = current_article.title
+      time
+        = current_article.date.strftime('%b %e, %Y')
+
+    main
+    .blogger
+      = yield
+    
+    .btn
+      =link_to 'Back', '/blog.html'

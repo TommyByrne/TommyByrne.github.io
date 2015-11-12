@@ -1,0 +1,17 @@
+header.navigation
+  .mobile-nav-toggle onclick="HW.toggleMobileMenu()"
+    .hamburger
+      .patty
+      .patty
+      .patty
+    .title Menu
+
+  .container
+    a.logo href="/"
+      = image_tag('logo1x.png')
+      span Tommy-Byrne
+
+    nav
+      = link_to('Thoughts', '/blog.html')
+      = link_to('Tools', '/tools.html')
+      = link_to('Me', '/about.html')
