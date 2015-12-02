@@ -4,7 +4,7 @@ date: 2015-12-01 00:00 UTC
 tag:
 author: tbyrn687@gmail.com
 summary: As much as we would like to avoid it some days will feel like you hit a brick wall. This is my thought on how to handle those days.
-published: false
+published: true
 ---
 
 Ever feel like a brick wall has stopped you dead in your tracks?  Anyone who has ever programmed has felt that pounding headache you get when you feel like your day or even week has been nothing but banging your head against a brick wall.  Many of us get so tied up with where we want to be that we often forget where we are now.  We get flustered, discouraged, doubtful, angry and for many this becomes the end of the journey. Don’t fool yourself quitting is only good when you are talking about cigarettes.  Remember why you started your journey and don’t let a few headaches stop you.
